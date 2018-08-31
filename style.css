@@ -1,3 +1,31 @@
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
 nav a {
+    color: white;
+    text-decoration: none;
     display: inline-block;
+    padding: 20px;
+    font-family: Helvetica;
+}
+
+.navigation li{
+    list-style: none;
+    float: left;
+}
+
+nav{
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.bannerimg {
+    width: 100%;
 }
