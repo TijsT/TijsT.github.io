@@ -10,7 +10,7 @@ nav a {
     color: white;
     text-decoration: none;
     display: inline-block;
-    padding: 20px;
+    padding: 50%;
     font-family: Helvetica;
 }
 
@@ -31,5 +31,6 @@ nav{
 }
 
 .active {
-    background-color: blue
+    background-color: blue;
+    float: right;
 }
