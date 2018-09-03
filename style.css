@@ -29,3 +29,7 @@ nav{
 .bannerimg {
     width: 100%;
 }
+
+.active {
+    background-color: blue
+}
