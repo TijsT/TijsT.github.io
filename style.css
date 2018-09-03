@@ -31,6 +31,5 @@ nav{
 }
 
 .active {
-    background-color: blue;
-    float: right;
+    background-color: blue
 }
