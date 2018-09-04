@@ -3,20 +3,26 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background: linear-gradient(to bottom, #556179 0%, #000000 100%);
+
 }
 
 nav a {
     color: white;
     text-decoration: none;
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
     font-family: Helvetica;
+    
+    
 }
 
 .navigation li{
     list-style: none;
     float: left;
+    border-right: 1px solid rgb(105, 101, 101);
+    text-align: center;
+    
 }
 
 nav{
@@ -24,6 +30,7 @@ nav{
     width: 100%;
     margin: 0;
     padding: 0;
+    border: 2px solid rgb(105, 101, 101);
 }
 
 .bannerimg {
@@ -31,5 +38,101 @@ nav{
 }
 
 .active {
-    background-color: blue
+    background: linear-gradient(to bottom, #12026e 0%, #0948cf 100%)
+    
+}
+
+nav li a:hover:not(.active) {
+    background: linear-gradient(to bottom, #0948cf 0%, #12026e 100%)
+}
+
+.background {
+    width: 100%;
+}
+
+p {
+    color:white;
+    width: 60%;
+}
+
+body {
+    background-image: url(img/wave-background.jpg);
+    color: white;
+    font-family: helvetica, arial;
+    width: 100%
+}
+
+.footer li {
+    display: block;
+    background: linear-gradient(to bottom, #556179 0%, #000000 100%);
+    font-family: helvetica, arial;
+    border: 2px solid rgb(105, 101, 101);
+    border-radius: 10px;
+    float: right;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    list-style: none;
+
+}
+
+footer {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    border-radius: 8px;
+   
+    
+}
+
+footer li a:hover:not(.active) {
+    background: linear-gradient(to bottom, #0948cf 0%, #12026e 100%)
+}
+
+.rtable {
+    background: linear-gradient(to bottom, #0948cf 0%, #12026e 100%);
+    margin: 0%;
+    padding: 0px;
+    border-radius: 5px;
+    border: 8px solid rgb(142, 144, 161);
+    width: 60%;
+
+}
+
+th {
+border-bottom: 2px solid black;
+border-right: 2px solid black;
+padding: 10px;
+
+
+}
+
+td{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    
+}
+
+.vak {
+    text-align: left;
+}
+
+
+h2 {
+    display: inline-block;
+    border: 2px solid rgb(142, 144, 161);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+    background: linear-gradient(to bottom, #0948cf 0%, #12026e 100%)
+
 }
