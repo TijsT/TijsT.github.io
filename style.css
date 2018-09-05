@@ -30,7 +30,7 @@ nav{
     width: 100%;
     margin: 0;
     padding: 0;
-    border: 2px solid rgb(105, 101, 101);
+    border: 1px solid rgb(105, 101, 101);
 }
 
 .bannerimg {
@@ -53,12 +53,15 @@ nav li a:hover:not(.active) {
 p {
     color:white;
     width: 60%;
+    margin: 2%;
 }
 
 body {
     background-image: url(img/wave-background.jpg);
     color: white;
     font-family: helvetica, arial;
+    background-repeat: no-repeat;
+    
 
 }
 
@@ -133,6 +136,12 @@ h2 {
     border-radius: 10px;
     overflow: hidden;
     padding: 10px;
-    background: linear-gradient(to bottom, #0948cf 0%, #12026e 100%)
+    background: linear-gradient(to bottom, #0948cf 0%, #12026e 100%);
+    margin: 1%;
 
+}
+
+h4 {
+    margin: 1%;
+    font-weight: bolder;
 }
