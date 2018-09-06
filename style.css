@@ -57,6 +57,7 @@ body {
     color: white;
     font-family: helvetica, arial;
     background-repeat: vertical;
+    width:100%;
 }
 
 .footer li {
