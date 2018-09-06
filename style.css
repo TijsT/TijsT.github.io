@@ -157,19 +157,42 @@ h4 {
     color: rgb(240, 47, 47)
 }
 
-.codeimg{
+.codeimg {
     width: 40%;
     opacity: 0.8;
     margin: 2%;
     margin-top: 5%;
     border: 2px solid rgb(142, 144, 161);
-
 }
+
 .srv {
     display: flex;
-    width: 40%;
+    width: 35%;
     opacity: 0.8;
     margin: 2%;
-    margin-top: 3%;
     border: 2px solid rgb(142, 144, 161);
+}
+
+.bass {
+    display: flex;
+    margin: 2%;   
+    border: 2px solid rgb(142, 144, 161);
+    height: 250px; 
+    width: 35%;
+    opacity: 0.8;
+}
+
+/*class voor positieve resultaten*/
+.resultgh {
+    background-color: darkgreen;
+}
+
+/*class voor negatieve resultaten*/
+.resultngh {
+    background-color: darkred;
+}
+
+/*class voor resultaten die in afwachting zijn*/
+.resultp {
+    background-color: rgb(173, 107, 27);
 }
