@@ -43,9 +43,7 @@ nav li a:hover:not(.active) {
     background: linear-gradient(to bottom, #0948cf 0%, #12026e 100%);
 }
 
-.background {
-    width: 100%;
-}
+
 
 p {
     color: white;
@@ -56,8 +54,8 @@ body {
     background-image: url(img/wave-background.jpg);
     color: white;
     font-family: helvetica, arial;
-    background-repeat: vertical;
-    width:100%;
+    background-size: cover;
+    width: 100%;
 }
 
 .footer li {
