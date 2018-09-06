@@ -43,8 +43,6 @@ nav li a:hover:not(.active) {
     background: linear-gradient(to bottom, #0948cf 0%, #12026e 100%);
 }
 
-
-
 p {
     color: white;
     margin: 2%;
@@ -96,6 +94,7 @@ footer li a:hover:not(.active) {
     padding: 0px;
     border-radius: 5px;
     border: 4px solid rgb(142, 144, 161);
+    font-size: 85%;
 }
 
 th {
@@ -174,24 +173,27 @@ h4 {
 
 .bass {
     display: flex;
-    margin: 2%;   
+    margin: 2%;
     border: 2px solid rgb(142, 144, 161);
-    height: 44%; 
+    height: 44%;
     width: 35%;
     opacity: 0.8;
 }
 
 /*class voor positieve resultaten*/
+
 .resultgh {
     background-color: darkgreen;
 }
 
 /*class voor negatieve resultaten*/
+
 .resultngh {
     background-color: darkred;
 }
 
 /*class voor resultaten die in afwachting zijn*/
+
 .resultp {
     background-color: rgb(173, 107, 27);
 }
