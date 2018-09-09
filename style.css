@@ -49,8 +49,7 @@ p {
 }
 
 body {
-   /* background-image: url(img/wave-background.jpg);*/
-   background: chocolate;
+    background-image: url(img/wave-background.jpg);
     color: white;
     font-family: helvetica, arial;
     background-size: cover;
