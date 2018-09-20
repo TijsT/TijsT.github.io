@@ -29,8 +29,8 @@ switch (true) {
         
 }
 
-purchasedBook = true;
-job = "teacher";
+const purchasedBook = true,
+job = "teacher",
 inTrain = true;
 
 if (purchasedBook == true && job == "teacher" && inTrain == true){
